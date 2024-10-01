@@ -1,1 +1,11 @@
+Aplicação com integração do GOOGLE GEMINI
+
+- Envie uma foto em base64 de qualquer medidor de metros, como hidrômetro ou gasômetro
+
+- A API irá retornar o valor em m³
+
+- Dê o check confirmando que o valor que foi lido pela IA do Gemini está correto
+
+
 *** IMPORTANTE Passar o GEMINI_API_KEY no docker-compose.yaml
+
