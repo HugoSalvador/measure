@@ -1,11 +1,16 @@
-Aplicação com integração do GOOGLE GEMINI
+# 📏 Aplicação com Integração do GOOGLE GEMINI
 
-- Envie uma foto em base64 de qualquer medidor de metros, como hidrômetro ou gasômetro
+Este projeto permite enviar fotos em base64 de medidores, como hidrômetros e gasômetros, para realizar a leitura do valor em metros cúbicos (m³) utilizando a API do Google Gemini. Após a leitura, você pode confirmar se o valor lido pela IA está correto.
 
-- A API irá retornar o valor em m³
+## 📸 Funcionalidades
 
-- Dê o check confirmando que o valor que foi lido pela IA do Gemini está correto
+- **Envio de imagem:** Envie uma foto em base64 de qualquer medidor de metros.
+- **Processamento via API:** A API integrada com o Google Gemini irá interpretar a imagem e retornar o valor lido em **m³**.
+- **Validação do valor:** Confirme se o valor lido pela IA está correto.
 
+## 🚀 Como rodar o projeto
 
-*** IMPORTANTE Passar o GEMINI_API_KEY no docker-compose.yaml
+### 1. Clone o repositório
 
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
